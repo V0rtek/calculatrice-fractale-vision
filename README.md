@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calculatrice Fractale Vision  
 
-## Getting Started
+Une calculatrice web simple et élégante développée en React en utilisant, intégrant des fonctionnalités de calcul avec `mathjs`. Ce projet a été conçu dans le cadre d'un test technique pour le poste de stagiaire chez Fractale Vision.  
 
-First, run the development server:
+## Fonctionnalités et technologies
+- Projet basé **React** et **Next.js** avec interface utilisateur intuitive et une grille de boutons adaptative.  
+- Support des opérations de base (+, -, *, /) et d'opérations plus complexes grâce à **Math.js**.
+- Bouton "Clear" pour réinitialiser l'entrée.  
+- Design moderne et responsive avec **Tailwind CSS**.  
 
+## Installation  
+
+1. **Cloner le dépôt github** :  
+```bash
+git clone https://github.com/V0rtek/fractale-vision-calculatrice.git
+cd calculatrice-fractale-vision
+```
+2. **Installer les dépendances** :  
+```bash
+npm install
+```
+3. **Lancer le projet** :  
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+4. **Voir le projet** :  
+Aller à l'adresse [http://localhost:3000](http://localhost:3000).
+
+### Test
+Lancer les tests:
+```bash
+npm run test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Sources
+* Basé sur le modèle de base d'application Next.js
+* Pour la partie responsive: https://tailwindcss.com/docs/responsive-design
+* [ChatGPT](https://chatgpt.com/) à été utilisé aux endroits marqués par des commentaires dans le code.
+* Référence pour l'installation de jest: https://nextjs.org/docs/app/building-your-application/testing/jest
