@@ -23,14 +23,15 @@ export default function Home() {
     setInput('');
   }
 
-  function handleButtonPress(button: string) {
-    if (input === 'Erreur') {
-      setInput(button); 
-    }
+  function handleButtonPress(button: string) {    
     if (button === '=') {
       calculateInput();
     } else {
-      setInput(input + button);
+      if (input === "Erreur") {
+        setInput(button); 
+      } else {
+        setInput(input + button);
+      }
     }
   }
 
