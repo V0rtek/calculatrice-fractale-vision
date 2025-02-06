@@ -12,11 +12,10 @@ export default function Home() {
   ];
 
   function calculateInput() {
-    console.log(input);
     try {
       setInput(evaluate(input).toString()); // Suggéré par ChatGPT
     } catch {
-      setInput('Error');
+      setInput('Erreur');
     }
   }
 
@@ -25,6 +24,9 @@ export default function Home() {
   }
 
   function handleButtonPress(button: string) {
+    if (input === 'Erreur') {
+      setInput(button); 
+    }
     if (button === '=') {
       calculateInput();
     } else {
