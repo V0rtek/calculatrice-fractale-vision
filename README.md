@@ -1,12 +1,18 @@
 # Calculatrice Fractale Vision  
 
-Une calculatrice web simple et élégante développée en React en utilisant, intégrant des fonctionnalités de calcul avec `mathjs`. Ce projet a été conçu dans le cadre d'un test technique pour le poste de stagiaire chez Fractale Vision.  
+Une calculatrice web simple et élégante développée en React en utilisant, intégrant des fonctionnalités de calcul avec `mathjs`. Ce projet a été conçu dans le cadre d'un test technique pour le poste de stagiaire chez Fractale Vision. 
 
 ## Fonctionnalités et technologies
 - Projet basé **React** et **Next.js** avec interface utilisateur intuitive et une grille de boutons adaptative.  
 - Support des opérations de base (+, -, *, /) et d'opérations plus complexes grâce à **Math.js**.
 - Bouton "Clear" pour réinitialiser l'entrée.  
 - Design moderne et responsive avec **Tailwind CSS**.  
+
+## Déploiement  
+
+L'application est déployée et accessible à l'adresse suivante :  
+[Calculatrice Fractale Vision - Démo en ligne](https://calculatrice-fractale-vision-3dl8dpf07.vercel.app)
+
 
 ## Installation  
 
@@ -26,7 +32,7 @@ npm run dev
 4. **Voir le projet** :  
 Aller à l'adresse [http://localhost:3000](http://localhost:3000).
 
-### Test
+#### Test
 Lancer les tests:
 ```bash
 npm run test
