@@ -11,7 +11,7 @@ Une calculatrice web simple et élégante développée en React en utilisant, in
 ## Déploiement  
 
 L'application est déployée et accessible à l'adresse suivante :  
-[Calculatrice Fractale Vision - Démo en ligne](https://calculatrice-fractale-vision-3dl8dpf07.vercel.app)
+[Calculatrice Fractale Vision - Démo en ligne](https://calculatrice-fractale-vision-3dl8dpf07.vercel.app/)
 
 
 ## Installation  
@@ -32,7 +32,7 @@ npm run dev
 4. **Voir le projet** :  
 Aller à l'adresse [http://localhost:3000](http://localhost:3000).
 
-#### Test
+### Test
 Lancer les tests:
 ```bash
 npm run test
